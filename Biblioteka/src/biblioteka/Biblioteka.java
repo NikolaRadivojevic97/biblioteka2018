@@ -30,7 +30,6 @@ public class Biblioteka implements BibliotekaInterfejs{
 
 	
 	public LinkedList<Knjiga> pronadjiKnjigu(String naslov, Autor autor, String isbn, String izdaavc) {
-		//moj javni komentar
 		if(naslov==null)
 			throw new RuntimeException("morate uneti nasolov");
 
