@@ -35,7 +35,7 @@ public class Biblioteka implements BibliotekaInterfejs{
 
 		LinkedList<Knjiga> novaLista=new LinkedList<Knjiga>();
 		for(int i=0;i<knjige.size();i++) {
-			if(knjige.get(i).getNaslov().contains(naslov))		//da sadrzi naslov unet zbog greski
+			if(knjige.get(i).getNaslov().contains(naslov))		//da sadrzi naslov unet zbog greskik
 				novaLista.add(knjige.get(i));
 		}
 		
